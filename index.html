@@ -3,27 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BlogDeCafé</title>
+    <title>HACk ETICO</title>
+    <link rel="shortcut icon" href="/img/img5.png"
+     type="image/x-icon">
     <meta name="description" content="Página web de blog de café">
-    <div class="carousel">
-        <img src="img1.jpg">
-        <img src="img2.jpg">
-        <img src="img3.jpg">
-      </div>
+   
     <!-- Prefetch -->
     <link rel="prefetch" href="nosotros.html" as="document">
 
     <!-- Preload -->
     <link rel="preload" href="css/normalize.css" as="style">
+
     <link rel="stylesheet" href="css/normalize.css">
+
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"  crossorigin="crossorigin" as="font">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     
     <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
 </head>
+<form>
+    <label for ="brightness">
+        Brillo
+    </label>
+    <input type="range"
+    id="brightness"
+    name="brightness"
+    min="1"
+    max="100"
+    value="100">
+</form>
 <body>
 
     <header class="header">
@@ -40,14 +52,14 @@
                     <a href="contacto.html" class="navegacion__enlace">Contacto</a>
                 </nav>
             </div>
-        </div>
+        </div>z
 
         <div class="header__texto">
             <h2 class="no-margin">Blog de café con consejos y cursos</h2>
             <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
         </div>
     </header>
-
+    
     <div class="contenedor contenido-principal">
         <main class="blog">
             <h3>Nuestro Blog</h3>
